@@ -1,0 +1,28 @@
+.func-signo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #280fe7;
+    background-repeat: no-repeat;
+    background-size: 200vh;
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 40%;
+        width: 25%;
+        background-color: #54ce249d;
+        border-radius: 20px;
+        color: beige;
+
+        input {
+            background-color: #1500b3;
+            outline: none;
+            border: none;
+            color: beige;
+        }
+    }
+}
